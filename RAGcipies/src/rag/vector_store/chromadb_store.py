@@ -81,9 +81,23 @@ class ChromaDBVectorStore(VectorStore):
         for chunk in chunks:
             metadata = {
                 "document_id": chunk.document_id,
-                **chunk.metadata  # Incluir metadata adicional del chunk
             }
+            
+            # Convertir metadata del chunk, transformando listas a strings
+            for key, value in chunk.metadata.items():
+                if isinstance(value, list):
+                    # Convertir listas a string separado por comas
+                    metadata[key] = ", ".join(str(item) for item in value)
+                elif value is not None:
+                    # Solo agregar valores no nulos y que sean tipos primitivos
+                    if isinstance(value, (str, int, float, bool)):
+                        metadata[key] = value
+                    else:
+                        # Convertir otros tipos a string
+                        metadata[key] = str(value)
+            
             metadatas.append(metadata)
+
         
         # Agregar a ChromaDB
         self.collection.add(

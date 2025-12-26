@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "title": "Pollo al horno con papas",
+      "ingredients": ["pollo", "papas", "aceite", "sal", "pimienta", "ajo", "limón"],
+      "instructions": "Cortar las papas en cubos, mezclarlas con aceite, sal y pimienta. Colocar el pollo en una bandeja, agregar ajo picado y jugo de limón. Hornear todo junto por 45-60 minutos.",
+      "tags": ["horno", "pollo", "sin_gluten"]
+    },
+    {
+      "id": "2",
+      "title": "Arroz con verduras salteadas",
+      "ingredients": ["arroz", "zanahoria", "morrón", "cebolla", "ajo", "salsa de soja"],
+      "instructions": "Hervir el arroz. Saltear cebolla, ajo, zanahoria y morrón. Agregar el arroz hervido, mezclar con salsa de soja y cocinar unos minutos más.",
+      "tags": ["salteado", "vegano", "rapido"]
+    },
+    {
+      "id": "3",
+      "title": "Tarta de jamón y queso",
+      "ingredients": ["masa para tarta", "jamón", "queso", "huevos", "leche", "sal", "pimienta"],
+      "instructions": "Colocar la masa en una tartera. Rellenar con jamón y queso. Batir huevos con leche, sal y pimienta y verter sobre el relleno. Hornear 30-40 minutos.",
+      "tags": ["horno", "tarta"]
+    },
+    {
+      "id": "4",
+      "title": "Galletitas de avena y banana sin horno",
+      "ingredients": ["avena", "banana", "miel", "chips de chocolate"],
+      "instructions": "Pisar las bananas, mezclar con avena y miel. Formar bolitas o galletitas y llevar a la heladera hasta que tomen consistencia.",
+      "tags": ["dulce", "sin_horno", "sin_huevo"]
+    },
+    {
+      "id": "5",
+      "title": "Ensalada de garbanzos",
+      "ingredients": ["garbanzos", "tomate", "cebolla", "aceite de oliva", "limón", "sal", "pimienta"],
+      "instructions": "Mezclar los garbanzos cocidos con tomate y cebolla picados. Condimentar con aceite de oliva, jugo de limón, sal y pimienta.",
+      "tags": ["ensalada", "vegano", "rapido", "sin_gluten"]
+    }
+  ]
+  
