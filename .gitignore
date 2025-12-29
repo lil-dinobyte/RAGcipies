@@ -139,9 +139,10 @@ chroma_db/
 test_chroma_db/
 *.chroma_db
 
-# Archivos de prueba temporales
-test_*.py
-!test_*/  # Mantener directorios de tests si existen
+# Archivos de prueba temporales (solo en la raíz)
+/test_*.py
+# Mantener el directorio tests/ y todos sus archivos
+!tests/
 
 # Archivos de datos grandes (opcional, descomentar si es necesario)
 # *.csv
